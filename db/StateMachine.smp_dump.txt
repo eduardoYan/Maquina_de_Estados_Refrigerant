@@ -1,0 +1,13 @@
+
+State Machine - |StateMachine|state
+Name state.eLL state.eLR2 state.eLR1 state.eLM3 state.eLM2 state.eLM1 state.eS3 state.eS2 state.eS1 state.eS0 
+state.eS0 0 0 0 0 0 0 0 0 0 0 
+state.eS1 0 0 0 0 0 0 0 0 1 1 
+state.eS2 0 0 0 0 0 0 0 1 0 1 
+state.eS3 0 0 0 0 0 0 1 0 0 1 
+state.eLM1 0 0 0 0 0 1 0 0 0 1 
+state.eLM2 0 0 0 0 1 0 0 0 0 1 
+state.eLM3 0 0 0 1 0 0 0 0 0 1 
+state.eLR1 0 0 1 0 0 0 0 0 0 1 
+state.eLR2 0 1 0 0 0 0 0 0 0 1 
+state.eLL 1 0 0 0 0 0 0 0 0 1 

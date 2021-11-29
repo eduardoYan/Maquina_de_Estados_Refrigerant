@@ -1,0 +1,8 @@
+/*
+		Implementa uma máquina de estados que
+	descreve uma máquina de refrigerante.
+*/
+
+module StateMachine();
+	reg State;
+endmodule;
